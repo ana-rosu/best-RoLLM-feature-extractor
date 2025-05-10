@@ -1,0 +1,29 @@
+Results on title, content, title+content:     
+	      Last   Mean   Echo   Summ
+LLaMA3.1-8B    89.72  93.55  92.74  95.92
+RoLLaMA3.1-8B  93.91  94.89  93.73  96.27
+mGPT1.3B       89.25  87.31  88.05  88.70
+LLMic 3B       63.20  44.60  69.40  44.45
+
+Results on title only   
+       Last   Mean   Echo   Summ
+LLaMA3.1-8B    94.74  94.53  95.51  96.33
+RoLLaMA3.1-8B  96.10  96.01  96.28  96.17
+mGPT1.3B       94.70  94.29  93.97  93.48
+LLMic 3B       42.12  66.67  79.55   0.00
+
+Results on content only
+       Last   Mean   Echo   Summ
+LLaMA3.1-8B    81.67  92.66  90.05  94.68
+RoLLaMA3.1-8B  90.46  93.27  90.46  95.42
+mGPT1.3B       82.48  82.20  82.13  81.30
+LLMic 3B       80.71   0.00  61.97  66.67
+
+
+Results on title+content
+                Last   Mean   Echo   Summ
+LLaMA3.1-8B    92.74  93.45  92.67  96.75
+RoLLaMA3.1-8B  95.17  95.38  94.46  97.23
+mGPT1.3B       90.56  85.44  88.05  91.31
+LLMic 3B       66.76  67.13  66.67  66.67
+
